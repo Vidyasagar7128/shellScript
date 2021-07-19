@@ -3,7 +3,7 @@
 for i in {1..5}
 do
         values=$(( (10+RANDOM%89) ))
-	echo "Values are : " $values
+	echo "Value $i is : " $values
         total=$(($total + $values))
 done
 echo

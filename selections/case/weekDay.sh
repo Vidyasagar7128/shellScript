@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter A value : " n
+read -p "Enter A value Between 1 to 7 : " n
 
 case $n in
         1) echo "SUNDAY"
@@ -17,6 +17,6 @@ case $n in
         ;;
         7) echo "SATURDAY"
         ;;
-        *) echo "0 to 9 only"
+        *) echo "1 to 7 only"
         ;;
 esac

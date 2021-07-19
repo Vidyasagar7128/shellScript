@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter A value : " n
+read -p "Enter A value Between 0 to 9 : " n
 
 case $n in
         0) echo "ZERO"

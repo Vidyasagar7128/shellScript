@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter 1 to 9 : " n
+read -p "Enter 0 to 9 : " n
 
         if ([ $n -eq 0 ])
 then
