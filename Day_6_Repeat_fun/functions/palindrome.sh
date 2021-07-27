@@ -9,8 +9,11 @@ function palindrome()
         while [ $n -gt 0 ]
 do
         mod=$(( $n%10 ))
+	echo $mod
         n=$(( $n/10 ))
+	echo $n
         rev=`expr $rev \* 10 + $mod`
+	echo $rev
 done
 echo $rev
 if (( $number == $rev ))
